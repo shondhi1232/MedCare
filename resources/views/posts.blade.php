@@ -38,8 +38,8 @@
                            <thead>
                                <tr>
                                    <th>Id</th>
-                                   <th>Post Title</th>
-                                   <th>Post description</th>
+                                   <th>Comment Title</th>
+                                   <th>Comment description</th>
 
                                </tr>
                            </thead>
