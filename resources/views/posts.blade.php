@@ -25,7 +25,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header" >
-                            All Post <a href="/add-post" class="btn btn-success">Add new post</a>
+                            All Post <a href="/add-post" class="btn btn-success">Add new Post</a>
                         </div>
                         <div class="card-body">
                             @if (Session::has('post_deleted'))
