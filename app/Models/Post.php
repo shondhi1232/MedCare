@@ -10,7 +10,10 @@ class Post extends Model
     use HasFactory;
     protected $table="posts";
     protected $fillable = [
-        'title',
-        'body',
+        'body'
     ];
+
+    public function likes(){
+        return $this->hasMany(Like::class);
+    }
 }
