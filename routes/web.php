@@ -25,9 +25,9 @@ Route::get('/aboutus',function(){
     return view('aboutus');
 });
 
-Route::get('/review',function(){
-    return view('review');
-});
+//Route::get('/review',function(){
+  //  return view('review');
+//});
 Route::get('/contact',function(){
     return view('contact');
 });

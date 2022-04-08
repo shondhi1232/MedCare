@@ -39,7 +39,7 @@
                 <a class="nav-link" href="/contact">contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/review">Review</a>
+                <a class="nav-link" href="/posts">Review</a>
               </li>
             </ul>
           </div>

@@ -24,8 +24,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
-                        <div class="card-header" >
-                            All Post <a href="/add-post" class="btn btn-success">Add new Post</a>
+                        <div class="card-header" align='center'>
+                            All Post
                         </div>
                         <div class="card-body">
                             @if (Session::has('post_deleted'))
@@ -37,7 +37,7 @@
                        <table class="table table-hover">
                            <thead>
                                <tr>
-                                   <th>Id</th>
+
                                    <th>Comment Title</th>
                                    <th>Comment description</th>
 
@@ -46,7 +46,7 @@
                            <tbody>
                                @foreach ($posts as $post )
                                <tr>
-                                   <td>{{$post->id}}</td>
+
                                    <td>{{$post->title}}</td>
                                    <td>{{$post->body}}</td>
                                    <td>
@@ -58,6 +58,7 @@
                                @endforeach
                            </tbody>
                        </table>
+                       <a href="/add-post" class="btn btn-success">Add new Post</a>
                         </div>
 
                     </div>
