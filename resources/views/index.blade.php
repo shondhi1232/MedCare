@@ -157,7 +157,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="images/vitamins.jpg">
-                            <h5><a href="#">Vitamins</a></h5>
+                            <h5><a href="#">Heath</a></h5>
                         </div>
                     </div>
                 </div>
