@@ -25,9 +25,8 @@ Route::get('/aboutus',function(){
     return view('aboutus');
 });
 
-//Route::get('/review',function(){
-  //  return view('review');
-//});
+Route::get('/shopside',[App\Http\Controllers\shopController::class, 'shop'])->name('shopside');
+
 Route::get('/contact',function(){
     return view('contact');
 });
@@ -37,4 +36,5 @@ route::get('/add-post',[App\Http\Controllers\PostController::class, 'addPost'])-
 route::post('/create-post',[App\Http\Controllers\PostController::class, 'createPost'])->name('post-create');
 route::get('/posts',[App\Http\Controllers\PostController::class, 'getPost']);
 route::get('/delete-post/{id}',[App\Http\Controllers\PostController::class, 'deletePost']);
-route::get('/edit-post/{id}',[App\Http\Controllers\PostController::class, 'editPost']);
+//route::get('/edit-post/{id}',[App\Http\Controllers\PostController::class, 'editPost']);
+

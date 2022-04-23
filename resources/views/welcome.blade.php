@@ -81,7 +81,7 @@
 
                 </div>
 
-                <button type="button" class="btn btn-outline-info"><a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Get started</a></button>
+                <button type="button" class="btn btn-outline-info"><a href="{{ route('shopside') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Get started</a></button>
                 <div class="float-xl-start">
                     <div class="p-2 bd-highlight">
                         <img  src="images/1234.png" alt="">

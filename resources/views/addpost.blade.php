@@ -11,6 +11,14 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       .container {
+           max-width: 900px;
+       }
+    </style>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
@@ -25,7 +33,7 @@
                 <div class="col-md-6 offset-md-3">
                     <div class="card">
                         <div class="card-header" style="text-align: center ">
-                            Add Post
+                           <h3> Add Post</h3>
                         </div>
                         <div class="card-body">
                             @if (Session::has('post-created'))
